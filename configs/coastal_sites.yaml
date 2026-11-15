@@ -1,0 +1,14 @@
+sites:
+  - name: Cape Verity
+    recorder: SoundTrap 1.0
+    sample_rate: 48000
+  - name: Gull Point
+    recorder: SoundTrap 1.0
+    sample_rate: 48000
+  - name: Harbor Reef
+    recorder: SM2M
+    sample_rate: 44100
+detector:
+  band_low_hz: 2000
+  band_high_hz: 16000
+  threshold_db: 12.0
